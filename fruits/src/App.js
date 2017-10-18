@@ -1,9 +1,11 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import apple from './apple.jpg';
+import orange from './orange.jpeg';
+import fruitbox from './fruitbox.jpg';
 import './App.css';
 import Frame from './frames/frame';
 
@@ -35,8 +37,19 @@ class App extends Component {
         </div>
 
         <Frame />
+        <div class="row">
+        <div class="col-sm-4">
+        <img src={apple} className="img-thumbnail" alt="apple" />
+        </div>
+        <div class="col-sm-4">
+        <img src={fruitbox} className="img-thumbnail" alt="fruitbox" />
+        </div>
+        <div class="col-sm-4">
+        <img src={orange} className="img-thumbnail" alt="orange" />
+        </div>
+        </div>
 
-        <img src={logo} className="App-logo" alt="logo" />
+
         <div>{"one"}</div>
         <div>{"two"}</div>
         <div>{"three"}</div>
