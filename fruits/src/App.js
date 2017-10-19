@@ -24,7 +24,15 @@ class App extends Component {
    <li role="presentation" class="active"><a href="#">Home</a></li>
    <li role="presentation"><a href="#">Profile</a></li>
    <li role="presentation"><a href="#">Messages</a></li>
+   <p align="right">Search icon on a styled button:
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-search"></span> Search
+    </button>
+   </p>
    </ul>
+
+
+
         </header> <br/><br/>
 
         <div className="App-intro">
